@@ -1,0 +1,565 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+}
+
+.topselling {
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-right: 80px;
+}
+
+.topsellingc {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-auto-rows: 260px;
+  grid-gap: 30px;
+  margin-top: 40px;
+}
+
+.topselling h2 {
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+.topselling-1 {
+  background-image: url(http://st.ourhtmldemo.com/template/organic_store/images/gallery/1.jpg);
+  background-size: cover;
+}
+.topselling-1 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(127, 180, 1, 0.8);
+  display: none;
+}
+.topselling-1 div img {
+  width: 38px;
+  margin-top: 30%;
+  margin-left: 45%;
+  margin-bottom: 20px;
+  filter: invert(75%) sepia(100%) saturate(2%) hue-rotate(234deg) brightness(115%) contrast(101%);
+  cursor: pointer;
+}
+.topselling-1 div p {
+  color: white;
+  margin-left: 20px;
+}
+.topselling-1 div p a {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+.topselling-1 div p a:hover, .topselling-1 div p a:focus, .topselling-1 div p a:visited {
+  text-decoration: none;
+  outline: none;
+}
+.topselling-1 div p span {
+  float: right;
+  margin-right: 20px;
+  margin-top: -30px;
+}
+.topselling-1 div p span button {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border: none;
+}
+.topselling-1 div p span button img {
+  width: 25px;
+  margin: 0;
+  filter: invert(72%) sepia(57%) saturate(4428%) hue-rotate(39deg) brightness(96%) contrast(99%);
+}
+
+.topselling-1:hover div {
+  display: block;
+}
+
+.topselling-2 {
+  background-image: url(http://st.ourhtmldemo.com/template/organic_store/images/gallery/2.jpg);
+  background-size: cover;
+}
+.topselling-2 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(127, 180, 1, 0.8);
+  display: none;
+}
+.topselling-2 div img {
+  width: 38px;
+  margin-top: 30%;
+  margin-left: 45%;
+  margin-bottom: 20px;
+  filter: invert(75%) sepia(100%) saturate(2%) hue-rotate(234deg) brightness(115%) contrast(101%);
+  cursor: pointer;
+}
+.topselling-2 div p {
+  color: white;
+  margin-left: 20px;
+}
+.topselling-2 div p a {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+.topselling-2 div p a:hover, .topselling-2 div p a:focus, .topselling-2 div p a:visited {
+  text-decoration: none;
+  outline: none;
+}
+.topselling-2 div p span {
+  float: right;
+  margin-right: 20px;
+  margin-top: -30px;
+}
+.topselling-2 div p span button {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border: none;
+}
+.topselling-2 div p span button img {
+  width: 25px;
+  margin: 0;
+  filter: invert(72%) sepia(57%) saturate(4428%) hue-rotate(39deg) brightness(96%) contrast(99%);
+}
+
+.topselling-2:hover div {
+  display: block;
+}
+
+.topselling-3 {
+  background-image: url(http://st.ourhtmldemo.com/template/organic_store/images/gallery/3.jpg);
+  background-size: cover;
+}
+.topselling-3 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(127, 180, 1, 0.8);
+  display: none;
+}
+.topselling-3 div img {
+  width: 38px;
+  margin-top: 30%;
+  margin-left: 45%;
+  margin-bottom: 20px;
+  filter: invert(75%) sepia(100%) saturate(2%) hue-rotate(234deg) brightness(115%) contrast(101%);
+  cursor: pointer;
+}
+.topselling-3 div p {
+  color: white;
+  margin-left: 20px;
+}
+.topselling-3 div p a {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+.topselling-3 div p a:hover, .topselling-3 div p a:focus, .topselling-3 div p a:visited {
+  text-decoration: none;
+  outline: none;
+}
+.topselling-3 div p span {
+  float: right;
+  margin-right: 20px;
+  margin-top: -30px;
+}
+.topselling-3 div p span button {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border: none;
+}
+.topselling-3 div p span button img {
+  width: 25px;
+  margin: 0;
+  filter: invert(72%) sepia(57%) saturate(4428%) hue-rotate(39deg) brightness(96%) contrast(99%);
+}
+
+.topselling-3:hover div {
+  display: block;
+}
+
+.topselling-4 {
+  background-image: url(http://st.ourhtmldemo.com/template/organic_store/images/gallery/4.jpg);
+  background-size: cover;
+}
+.topselling-4 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(127, 180, 1, 0.8);
+  display: none;
+}
+.topselling-4 div img {
+  width: 38px;
+  margin-top: 30%;
+  margin-left: 45%;
+  margin-bottom: 20px;
+  filter: invert(75%) sepia(100%) saturate(2%) hue-rotate(234deg) brightness(115%) contrast(101%);
+  cursor: pointer;
+}
+.topselling-4 div p {
+  color: white;
+  margin-left: 20px;
+}
+.topselling-4 div p a {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+.topselling-4 div p a:hover, .topselling-4 div p a:focus, .topselling-4 div p a:visited {
+  text-decoration: none;
+  outline: none;
+}
+.topselling-4 div p span {
+  float: right;
+  margin-right: 20px;
+  margin-top: -30px;
+}
+.topselling-4 div p span button {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border: none;
+}
+.topselling-4 div p span button img {
+  width: 25px;
+  margin: 0;
+  filter: invert(72%) sepia(57%) saturate(4428%) hue-rotate(39deg) brightness(96%) contrast(99%);
+}
+
+.topselling-4:hover div {
+  display: block;
+}
+
+.topselling-5 {
+  background-image: url(http://st.ourhtmldemo.com/template/organic_store/images/gallery/5.jpg);
+  background-size: cover;
+}
+.topselling-5 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(127, 180, 1, 0.8);
+  display: none;
+}
+.topselling-5 div img {
+  width: 38px;
+  margin-top: 30%;
+  margin-left: 45%;
+  margin-bottom: 20px;
+  filter: invert(75%) sepia(100%) saturate(2%) hue-rotate(234deg) brightness(115%) contrast(101%);
+  cursor: pointer;
+}
+.topselling-5 div p {
+  color: white;
+  margin-left: 20px;
+}
+.topselling-5 div p a {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+.topselling-5 div p a:hover, .topselling-5 div p a:focus, .topselling-5 div p a:visited {
+  text-decoration: none;
+  outline: none;
+}
+.topselling-5 div p span {
+  float: right;
+  margin-right: 20px;
+  margin-top: -30px;
+}
+.topselling-5 div p span button {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border: none;
+}
+.topselling-5 div p span button img {
+  width: 25px;
+  margin: 0;
+  filter: invert(72%) sepia(57%) saturate(4428%) hue-rotate(39deg) brightness(96%) contrast(99%);
+}
+
+.topselling-5:hover div {
+  display: block;
+}
+
+.topselling-6 {
+  background-image: url(http://st.ourhtmldemo.com/template/organic_store/images/gallery/6.jpg);
+  background-size: cover;
+}
+.topselling-6 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(127, 180, 1, 0.8);
+  display: none;
+}
+.topselling-6 div img {
+  width: 38px;
+  margin-top: 30%;
+  margin-left: 45%;
+  margin-bottom: 20px;
+  filter: invert(75%) sepia(100%) saturate(2%) hue-rotate(234deg) brightness(115%) contrast(101%);
+  cursor: pointer;
+}
+.topselling-6 div p {
+  color: white;
+  margin-left: 20px;
+}
+.topselling-6 div p a {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+.topselling-6 div p a:hover, .topselling-6 div p a:focus, .topselling-6 div p a:visited {
+  text-decoration: none;
+  outline: none;
+}
+.topselling-6 div p span {
+  float: right;
+  margin-right: 20px;
+  margin-top: -30px;
+}
+.topselling-6 div p span button {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border: none;
+}
+.topselling-6 div p span button img {
+  width: 25px;
+  margin: 0;
+  filter: invert(72%) sepia(57%) saturate(4428%) hue-rotate(39deg) brightness(96%) contrast(99%);
+}
+
+.topselling-6:hover div {
+  display: block;
+}
+
+.news {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 360px));
+  grid-auto-rows: 500px;
+  grid-gap: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.newscontainer {
+  margin-top: 250px;
+  text-align: center;
+  background-color: #f3f1f1;
+  padding-top: 150px;
+}
+.newscontainer h2 {
+  margin-top: -30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: inherit;
+}
+.newscontainer img {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.newsimg1 {
+  width: 100%;
+  height: 40%;
+  background-image: url(http://st.ourhtmldemo.com/template/organic_store/images/blog/1.jpg);
+}
+.newsimg1 div {
+  background-color: rgba(127, 180, 1, 0.8);
+  height: 100%;
+  display: none;
+}
+.newsimg1 div a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  line-height: 55px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  padding-top: 66px;
+}
+
+.newsimg1:hover div {
+  display: block;
+}
+
+.newsimg2 {
+  width: 100%;
+  height: 40%;
+  background-image: url(http://st.ourhtmldemo.com/template/organic_store/images/blog/2.jpg);
+}
+.newsimg2 div {
+  background-color: rgba(127, 180, 1, 0.8);
+  height: 100%;
+  display: none;
+}
+.newsimg2 div a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  line-height: 55px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  padding-top: 66px;
+}
+
+.newsimg2:hover div {
+  display: block;
+}
+
+.newsimg3 {
+  width: 100%;
+  height: 40%;
+  background-image: url(http://st.ourhtmldemo.com/template/organic_store/images/blog/3.jpg);
+}
+.newsimg3 div {
+  background-color: rgba(127, 180, 1, 0.8);
+  height: 100%;
+  display: none;
+}
+.newsimg3 div a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  line-height: 55px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  padding-top: 66px;
+}
+
+.newsimg3:hover div {
+  display: block;
+}
+
+.newsdate {
+  color: #9c9c9c;
+  font-weight: bold;
+}
+.newsdate ul {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -60px;
+  list-style: none;
+}
+.newsdate ul li {
+  cursor: pointer;
+}
+.newsdate ul .healthy::before {
+  background-image: url(png/label.png);
+  filter: invert(72%) sepia(57%) saturate(4428%) hue-rotate(39deg) brightness(96%) contrast(99%);
+  background-size: 10px 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  content: "";
+}
+.newsdate ul .healthy::after {
+  content: "•";
+  padding-left: 12px;
+}
+.newsdate ul .date {
+  margin-left: -50px;
+}
+.newsdate ul .date::before {
+  background-image: url(png/time.png);
+  filter: invert(72%) sepia(57%) saturate(4428%) hue-rotate(39deg) brightness(96%) contrast(99%);
+  background-size: 12px 12px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  content: "";
+}
+.newsdate ul .date::after {
+  content: "•";
+  padding-left: 12px;
+}
+.newsdate ul .comt {
+  margin-left: -50px;
+}
+.newsdate ul .comt::before {
+  background-image: url(png/bubble-chat.png);
+  filter: invert(72%) sepia(57%) saturate(4428%) hue-rotate(39deg) brightness(96%) contrast(99%);
+  background-size: 15px 15px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  content: "";
+}
+
+.should {
+  background-color: #fff;
+  border-top: 3px solid #7fb401;
+  height: 200px;
+  text-align: left;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+.should p {
+  color: #9c9c9c;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.should h3 {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.should h3 a {
+  text-decoration: none;
+  color: #000;
+}
+.should span a {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.should span a::after {
+  content: "➤";
+  padding-left: 5px;
+}
+.should span a:hover {
+  color: #7fb401;
+}/*# sourceMappingURL=main.css.map */
