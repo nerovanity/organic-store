@@ -7,6 +7,7 @@
     <title>template</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/main.css">
+    
 </head>
 <body>
     <div class="head">
@@ -160,13 +161,13 @@
         <ul class="nav-product">
             <li><button>ALL PRODUCTS</button></li>
             <li><button>FRUITS</button></li>
-            <li><button>VEGETABLES</button></li>
+            <li><button onclick="vegetables()">VEGETABLES</button></li>
             <li><button>BEAUTY</button></li>
             <li><button>OTHERS</button></li>
         </ul>
         <ul class="products">
             <li class="productone">
-                <div class="product1 beauty others">
+                <div class="product1 not-fruit not-vegetables">
                     <div class="new product-b">New</div>
                     <img src="png/1product.png" id="product1">
                     <div class="product1-bottom">
@@ -195,8 +196,8 @@
                 </div>
 
             </li>
-            <li class="producttwo">
-               <div class="product1 others">
+            <li class="producttwo" id="not_vegetables">
+               <div class="product1 ">
                     <img src="http://st.ourhtmldemo.com/template/organic_store/images/shop/2.png" id="product1">
                     <div class="product1-bottom">
                         <p>Turmeric Powder</p>
@@ -223,7 +224,7 @@
                 </div>
             </li>
             <li class="productthree">
-               <div class="product1 fruits Vegetables beauty">
+               <div class="product1 not-other">
                     <div class="hot product-b">Hot</div>
                     <img src="	http://st.ourhtmldemo.com/template/organic_store/images/shop/3.png" id="product1">
                     <div class="product1-bottom">
@@ -251,7 +252,7 @@
                 </div>
             </li>
             <li class="productfour">
-               <div class="product1 beauty others">
+               <div class="product1 not-fruit not-vegetables">
                     <img src="	http://st.ourhtmldemo.com/template/organic_store/images/shop/4.png" id="product1">
                     <div class="product1-bottom">
                         <p>Turmeric Powder</p>
@@ -278,7 +279,7 @@
                 </div>
             </li>
             <li class="productfive">
-               <div class="product1 fruits others">
+               <div class="product1 not-beauty not-vegetables">
                     <img src="	http://st.ourhtmldemo.com/template/organic_store/images/shop/5.png" id="product1">
                     <div class="product1-bottom">
                         <p>Turmeric Powder</p>
@@ -333,7 +334,7 @@
                 </div>
             </li>
             <li class="productseven">
-               <div class="product1 fruits others">
+               <div class="product1 not-vegetables not-beauty">
                     <img src="	http://st.ourhtmldemo.com/template/organic_store/images/shop/7.png" id="product1">
                     <div class="product1-bottom">
                         <p>Turmeric Powder</p>
@@ -360,7 +361,7 @@
                 </div>
             </li>
             <li class="producteight">
-               <div class="product1 fruits Vegetables beauty others">
+               <div class="product1">
                     <div class="hot product-b">Hot</div>
                     <img src="	http://st.ourhtmldemo.com/template/organic_store/images/shop/8.png" id="product1">
                     <div class="product1-bottom">
@@ -624,5 +625,6 @@
         
     </div>
     <script src="index.js"></script>
+    <script src="tempfunctions.js"></script>
 </body>
 </html>

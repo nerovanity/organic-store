@@ -392,6 +392,7 @@ body{
     z-index: 1;
     position: relative;
     display: none;
+    transition: linear 300ms all;
     div{
         position: absolute;
         top: 50%;
@@ -400,6 +401,7 @@ body{
     }
     button:hover{
         background-color: #7fb401;
+        transition: linear 300ms all;
         img{
             filter: $whiteimg;
         }
@@ -429,7 +431,9 @@ body{
     border: 1px solid $green;
     position: relative;
     z-index: 1;
+    transition: linear 300ms all;
 }
+
 @mixin text{
     position: relative;
     margin-top: -30px;
@@ -453,6 +457,7 @@ body{
 }
 .farmertext{
     @include text;
+    transition: linear 300ms all;
 }
 .farmerhover:hover .imgfarmer{
     display: block;
@@ -514,4 +519,7 @@ body{
             color: white;
         }
     }
+}
+.hide_it{
+    display: none !important;
 }

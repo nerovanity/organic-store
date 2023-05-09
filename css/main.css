@@ -583,6 +583,7 @@ body {
   z-index: 1;
   position: relative;
   display: none;
+  transition: linear 300ms all;
 }
 .imgfarmer div {
   position: absolute;
@@ -592,6 +593,7 @@ body {
 }
 .imgfarmer button:hover {
   background-color: #7fb401;
+  transition: linear 300ms all;
 }
 .imgfarmer button:hover img {
   filter: invert(75%) sepia(100%) saturate(2%) hue-rotate(234deg) brightness(115%) contrast(101%);
@@ -622,6 +624,7 @@ body {
   border: 1px solid #7fb401;
   position: relative;
   z-index: 1;
+  transition: linear 300ms all;
 }
 
 .farmertext {
@@ -634,6 +637,7 @@ body {
   width: 80%;
   left: 50%;
   transform: translateX(-50%);
+  transition: linear 300ms all;
 }
 .farmertext h5 {
   color: #7fb401;
@@ -711,4 +715,8 @@ body {
   font-size: 30px;
   font-weight: 700;
   color: white;
+}
+
+.hide_it {
+  display: none !important;
 }/*# sourceMappingURL=main.css.map */
