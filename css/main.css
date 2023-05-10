@@ -654,6 +654,48 @@ body {
   display: block;
 }
 
+.farmer1:hover .farmertext {
+  background-color: #7fb401;
+  color: white;
+}
+.farmer1:hover .farmertext p {
+  color: #fff;
+}
+.farmer1:hover .farmertext h4 {
+  color: #fff;
+}
+.farmer1:hover .farmertext h5 {
+  color: #fff;
+}
+
+.farmer2:hover .farmertext {
+  background-color: #7fb401;
+  color: white;
+}
+.farmer2:hover .farmertext p {
+  color: #fff;
+}
+.farmer2:hover .farmertext h4 {
+  color: #fff;
+}
+.farmer2:hover .farmertext h5 {
+  color: #fff;
+}
+
+.farmer3:hover .farmertext {
+  background-color: #7fb401;
+  color: white;
+}
+.farmer3:hover .farmertext p {
+  color: #fff;
+}
+.farmer3:hover .farmertext h4 {
+  color: #fff;
+}
+.farmer3:hover .farmertext h5 {
+  color: #fff;
+}
+
 .farmertext:hover {
   background-color: #7fb401;
   color: white;
@@ -719,4 +761,15 @@ body {
 
 .hide_it {
   display: none !important;
+  transition: linear 300ms all;
+}
+
+.lan {
+  list-style-type: none;
+  float: right;
+  margin-right: 100px;
+  margin-top: 5px;
+}
+.lan ul {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

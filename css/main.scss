@@ -461,6 +461,46 @@ body{
 }
 .farmerhover:hover .imgfarmer{
     display: block;
+    
+}
+.farmer1:hover .farmertext{
+    background-color: #7fb401;
+    color: white;
+    p{
+        color: #fff;
+    }
+    h4{
+        color: #fff;
+    }
+    h5{
+        color: #fff;
+    }
+}
+.farmer2:hover .farmertext{
+    background-color: #7fb401;
+    color: white;
+    p{
+        color: #fff;
+    }
+    h4{
+        color: #fff;
+    }
+    h5{
+        color: #fff;
+    }
+}
+.farmer3:hover .farmertext{
+    background-color: #7fb401;
+    color: white;
+    p{
+        color: #fff;
+    }
+    h4{
+        color: #fff;
+    }
+    h5{
+        color: #fff;
+    }
 }
 .farmertext:hover{
     background-color: #7fb401;
@@ -522,4 +562,14 @@ body{
 }
 .hide_it{
     display: none !important;
+    transition: linear 300ms all;
+}
+.lan{
+    list-style-type: none;
+    float: right;
+    margin-right: 100px;
+    margin-top: 5px;
+    ul{
+        display: none;
+    }
 }
