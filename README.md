@@ -21,4 +21,4 @@ AAs part of my internship and learning experience, I have developed an "Organic 
 
 ![Organic Store Template](https://github.com/nerovanity/organic-store/blob/main/screenshots/Capture.PNG)
 ![Organic Store Template](https://github.com/nerovanity/organic-store/blob/main/screenshots/Capture2.PNG)
-![Organic Store Template](https://github.com/nerovanity/organic-store/blob/main/screenshots/capture3.PNG)
+![Organic Store Template](https://github.com/nerovanity/organic-store/blob/main/screenshots/Capture3.PNG)
