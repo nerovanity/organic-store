@@ -190,7 +190,7 @@ body{
     grid-template-columns: repeat(auto-fill, minmax(320px, 360px));
     grid-auto-rows: 500px;
     grid-gap: 60px;
-    margin-left: 230px;
+    margin-left: 350px;
     margin-right: 80px;
 }
 
@@ -382,7 +382,7 @@ body{
         font-weight: 700;
     }
     .farmers{
-        margin-left: 110px;
+        margin-left: 200px;
     }
 }
 .imgfarmer{
@@ -562,7 +562,7 @@ body{
 }
 .hide_it{
     display: none !important;
-    transition: linear 300ms all;
+    transition: linear 300ms;
 }
 .lan{
     list-style-type: none;

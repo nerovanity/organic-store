@@ -1,8 +1,9 @@
+
 :root{
     --green: #7fb401;
     --white:  #f4f5f6;
     --lightgrey: #9c9c9c;
-    --font: 'Roboto', sans-serif;
+    --font: 'Roboto',sans-serif;
     --lightgreyimg: invert(73%) sepia(0%) saturate(72%) hue-rotate(169deg) brightness(85%) contrast(91%);
     /*changing img color with filter attr*/
     --greenimg: invert(72%) sepia(57%) saturate(4428%) hue-rotate(39deg) brightness(96%) contrast(99%);
@@ -11,10 +12,18 @@
 *{
     font-family: var(--font);
     font-smooth: antialiased;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
 }
 @font-face {
     font-family: 'Pacifico';
     src: url(font/Pacifico.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/roboto/RobotoMono-VariableFont_wght.ttf);
 }
 .email{
     width: 3.5%;
@@ -53,7 +62,7 @@
 }
 .containerc{
     display: flex;
-    margin-top: 12px ;
+    margin-top: 14px ;
     margin-left: 70px;
 }
 #wishlist{
@@ -119,7 +128,7 @@ select option{
 #logo{
     position: relative;
     top: 30px;
-    left: 130px;
+    left: 250px;
     width: 100%;
 }
 .containersearch{
@@ -139,7 +148,7 @@ select option{
 .log{
     display: flex;
     position: relative;
-    left: 250px;
+    left: 400px;
     font-family: var(--font);
     color: var(--lightgrey);
     top: 28px;
@@ -180,8 +189,8 @@ select option{
     align-items: baseline;
     font-family: var(--font);
     position: relative;
-    top: -35px;
-    left: 150px;
+    top: -39px;
+    left: 300px;
     color: var(--lightgrey);
 }
 .mycart{
@@ -261,8 +270,8 @@ select option{
     margin-left: 10px;
     text-decoration: none;
     font-family: var(--font);
-    font-weight: 550;
-    font-size: 16px;
+    font-weight: 300;
+    font-size: 14px;
 }
 /*.menu li select{
     background-color: var(--green);
@@ -487,9 +496,9 @@ select option{
 }
 #slider-1 fieldset h1{
     color: #fff;
-    font-size: 6.5vw;
+    font-size: 6rem;
     text-align: center;
-    margin-top: 0;
+    margin-top: .5rem;
 }
 #slider-1 fieldset{
     position: absolute;
@@ -598,8 +607,7 @@ select option{
 }
 .layers{
     padding: 50px;
-    display: inline-block;
-    width: 90vw;
+    width: 95vw;
 }
 .layers img{
     margin-top: 20px;
@@ -676,8 +684,9 @@ select option{
     position: relative;
 }
 .products{
-    display: inline-block;
-    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
 }
 .product-b{
     height: 50px;
@@ -735,7 +744,7 @@ select option{
     position: absolute;
     top: 20px;
     right: 20px;
-    z-index: 8;
+    z-index: -1;
 }
 .add1{
     position: absolute;
@@ -948,6 +957,7 @@ select option{
     border: 10px;
     width: 260px;
     display: none;
+    z-index: 9;
 }
 .add4 .buttons4{
     background-color: rgb(255, 255, 255,0.8);
@@ -1349,3 +1359,4 @@ select option{
     filter: var(--greenimg);
     user-select: none;
 }
+
