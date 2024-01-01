@@ -19,6 +19,6 @@ AAs part of my internship and learning experience, I have developed an "Organic 
 
 ## screenshots
 
-![](screenshots/capture.png)
-![](screenshots/capture2.png)
-![](screenshots/capture3.png)
+![Organic Store Template](https://github.com/nerovanity/organic-store/screenshots/capture.png)
+![Organic Store Template](https://github.com/nerovanity/organic-store/screenshots/capture2.png)
+![Organic Store Template](https://github.com/nerovanity/organic-store/screenshots/capture3.png)
